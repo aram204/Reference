@@ -112,6 +112,5 @@ cython_debug/
 # IDEs
 .vscode/
 .idea/
-config.json
 profiles/
 status/

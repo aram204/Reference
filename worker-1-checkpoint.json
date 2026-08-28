@@ -1,8 +1,8 @@
 {
     "batch": 111,
-    "phase": "checking",
-    "page_in_batch": 4,
-    "absolute_page": 2185,
+    "phase": "downloading",
+    "page_in_batch": 9,
+    "absolute_page": 2190,
     "max_page": 5995,
-    "download_pending": false
+    "download_pending": true
 }
