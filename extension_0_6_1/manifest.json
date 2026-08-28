@@ -1,0 +1,85 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "/icon/128.png",
+         "16": "/icon/16.png",
+         "24": "/icon/24.png",
+         "32": "/icon/32.png",
+         "48": "/icon/48.png",
+         "64": "/icon/64.png"
+      },
+      "default_popup": "assets/svndki.html",
+      "default_title": "NopeCHA: CAPTCHA Solver"
+   },
+   "background": {
+      "service_worker": "assets/bklhy9.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "assets/vk3s1y.js" ],
+      "matches": [ "*://*.hcaptcha.com/captcha/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "assets/kathhh.js" ],
+      "matches": [ "*://*.google.com/recaptcha/*", "*://*.recaptcha.net/recaptcha/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "assets/t9kg5l.js" ],
+      "matches": [ "*://*.arkoselabs.com/fc/*", "*://*.funcaptcha.com/fc/*", "*://*/fc/assets/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "assets/x2ra3j.js" ],
+      "matches": [ "*://challenges.cloudflare.com/cdn-cgi/challenge-platform/*", "*://challenges.fed.cloudflare.com/cdn-cgi/challenge-platform/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "assets/f58zgw.js" ],
+      "matches": [ "*://nopecha.com/setup" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "assets/ga1w1f.js" ],
+      "matches": [ "*://nopecha.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": false,
+      "js": [ "assets/0fe7xa.js" ],
+      "matches": [ "*://nopecha.com/demo/funcaptcha", "*://nopecha.com/captcha/funcaptcha" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "assets/9jm743.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "include_globs": [ "*frame=challenge*" ],
+      "js": [ "assets/t7658k.js" ],
+      "matches": [ "*://*.hcaptcha.com/captcha/*" ],
+      "run_at": "document_end",
+      "world": "MAIN"
+   } ],
+   "description": "AI Solver for reCAPTCHA, hCAPTCHA, and all CAPTCHA.",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "/icon/128.png",
+      "16": "/icon/16.png",
+      "24": "/icon/24.png",
+      "32": "/icon/32.png",
+      "48": "/icon/48.png",
+      "64": "/icon/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlWiyXSK0GK0nDwOfOJ2zUvRv99E2XU6LnR67zKE5RjM2icff7Cwmo6nR5i+4UukShIyEaDdQsbC+vyTpDeaJMn+bNphPYjQxGY6spIk3KV1h71Jj0dSUOYUwGrViKg3LnC4LKtENYOsbIxTmMw8JG4oH1hU1tY4KlnSzcqiwTaDLTP0X7MVdDK0WPOyypNlkL7v1HWMjPZa32EudqcrWub/EMpMFuSugTyIu8dHaAQhW13RkU77BiMRoZfZYxbcED48YPmZS8qi3KOrymjOTWCJeDMjwy/MLCqrwhjoG1Y5jDXHFbxNUPxEJYw9mxxPTN+asraML9tywlLuzZluHwwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "100.0",
+   "name": "NopeCHA: CAPTCHA Solver",
+   "permissions": [ "scripting", "storage", "debugger", "declarativeNetRequest" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.6.1",
+   "version_name": "v0.6.1"
+}

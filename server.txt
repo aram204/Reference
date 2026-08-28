@@ -1,0 +1,33 @@
+Login Here: https://www-referenceusa-com.lapl.idm.oclc.org/Home/Home
+Login 1: 27244084654956 Pin: 1341
+Login 2: 27244084654949 Pin: 3250
+Login 3: 27244079129022 Pin: 2378
+Login 4: 27244082651954 Pin: 1749
+Login 5: 27244082748677 Pin: 6200
+Login 6: 27244082748669 Pin: 3154
+Login 7: 27244082651970 Pin: 1210
+
+Industry primary NAICS:
+Commercial – 42, 43, 44, 45, 51, 53, 54, 713, 72
+Industrial – 212, 31, 32, 33, 564
+Construction - 23
+Oil & Gas – 211, 213111, 213112, 486
+Utility – 22
+Mining - 212, 213113, 213114, 213115
+Agriculture – 11
+Education – 61
+Healthcare – 62
+Events – 7113
+Logistics & Warehousing – 481, 482, 483, 484, 485, 487, 488, 49
+Others – 811, 92
+
+[Server]
+Contabo
+Login: gurgen.gharibyan@gmail.com
+Password: SQ6DyjqnUjB23gMTC6nD
+SSH - root@169.58.227.134 / 0M2r5FCSe6
+
+[WebUI]
+http://169.58.227.134:8000/
+WEBUI_USERNAME=admin-K01Br
+WEBUI_PASSWORD=Z0uYITLNj2MWGkXnjuxI
